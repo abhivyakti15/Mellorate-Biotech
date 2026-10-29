@@ -457,6 +457,18 @@ ul.bullets li {
     filter: drop-shadow(0 14px 18px rgba(0, 0, 0, .5))
 }
 
+.product-image {
+    display: block;
+    width: 100%;
+    max-width: 860px;
+    height: auto;
+    max-height: 520px;
+    object-fit: contain;
+    margin: 0 auto 48px;
+    border: 1px solid var(--line);
+    box-shadow: 0 12px 30px rgba(15, 28, 30, .12)
+}
+
 .product dt {
     font-weight: 700;
     margin-top: 1.1em;
